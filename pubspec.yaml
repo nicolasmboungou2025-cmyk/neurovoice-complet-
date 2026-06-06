@@ -1,0 +1,38 @@
+name: neurovoice
+description: NeuroVoice - Assistant vocal intelligent
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^2.2.2
+  speech_to_text: ^6.6.0
+  vosk_flutter: ^0.3.0
+  mic_stream: ^0.6.2
+  path_provider: ^2.1.2
+  flutter_tts: ^4.0.2
+  permission_handler: ^10.2.0
+  url_launcher: ^6.2.5
+  contacts_service: ^0.6.3
+  flutter_animate: ^4.5.0
+  http: ^0.13.5
+  connectivity_plus: ^6.0.3
+  phone_state: ^2.0.0
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/vosk_models/fr/
+    - assets/vosk_models/en/
